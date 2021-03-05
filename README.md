@@ -21,9 +21,15 @@ How to use this code: There are five things you can do with these codes:
 (4) Run an idealized version of the steady-state grain size model and compute tensile strength (which replicates Figure 3b of the paper) - this requires just running "computeplotShearMarginCase_Fracture.m"
 
 (5) Compute grain size and ice temperature for Antarctic Ice Streams: "RunAntarcticIceStreams.m" is the main code in which you can alter parameters and choose the ice stream you want to look at. The code will then import various data through "readData.m" (surface velocity, surface strain-rates, surface mass balance, ice thickness) and compute ice temperature and grain size for the full domain defined in "readData.m". Then this plots some of these fields in "plotShearMarginProperties.m". This code uses the following:
+
 	-findPropertiesofShearMargin.m
+	
 	-findShearMarginProperties_Antarctica.m
+	
 	-readData.m
+	
 	-findGrainSize.m
+	
 	-findIceTemperature.m
+	
 	-defineActivationEnergies.m
