@@ -3,6 +3,12 @@ Meghana Ranganathan [meghanar@mit.edu]
 
 This repository contains code that pertains to the recently submitted paper "Recrystallization of ice enhances the creep and vulnerability to fracture of ice shelves", submitted to PNAS 3.6.21. It contains a steady-state grain size model applicable to glacier ice.
 
+To run this code, you will need data of:
+-surface mass balance, surface velocity, surface strain rates, ice thickness
+-GRIP ice core data: ice temperature, grain size, depth/age
+-GISP2 ice core data: ice temperature, grain size, depth/age
+-WAIS Divide ice core data: ice temperature, grain size, depth/age
+
 How to use this code: There are five things you can do with these codes:
 (1) Compare the grain size model with data from three ice cores: WAIS Divide, GRIP, GISP2; you can just run the files "GrainSizeModel_GISP2.m", "GrainSizeModel_GRIP.m", "GrainSizeModel_WAISDivide.m" and it should produce all the plots from the paper and supplement
 
