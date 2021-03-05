@@ -9,9 +9,13 @@ How to use this code: There are five things you can do with these codes:
 (2) Test the sensitivity of the grain size model to various parameters; you can run "ParameterSensitivityStudy_ActivationEnergies.m" to test the sensitivity to activation energy, "ParameterSensitivityStudy_D.m" to test the sensitivity to a characteristic length-scale, "ParameterSensitivityStudy_n.m" to test the sensitivity to the flow-law exponent, "ParameterSensitivityStudy_p.m" to test the sensitivity to the grain growth exponent, "ParameterSensitivityStudy_tc.m" to test the sensitivity to the critical temperature, and "ParameterSensitivityStudy_Theta.m" to test the sensitivity to the energy partitioning parameter. These should produce all the plots from the supplement.
 
 (3) Run idealized versions of the steady-state grain size model: "GrainSizeEstimate_main.m" is the main code in which you can alter various parameters and compute ice temperature and grain size. Running this code will also plot the time to steady state in the idealized case and a figure of ice temperature, grain size, and stress. This code uses the following:
+
 	-defineActivationEnergies.m
+	
 	-findGrainSize.m
+	
 	-findIceTemperature.m
+	
 	-plotGrainSizeIceTemperature.m
 
 (4) Run an idealized version of the steady-state grain size model and compute tensile strength (which replicates Figure 3b of the paper) - this requires just running "computeplotShearMarginCase_Fracture.m"
